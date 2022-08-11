@@ -131,12 +131,14 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /usr/include/c++/11/pstl/execution_defs.h /usr/include/SDL2/SDL.h \
- /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
- /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_config-x86_64.h \
- /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/begin_code.h \
- /usr/include/SDL2/close_code.h /usr/include/c++/11/stdlib.h \
- /usr/include/string.h /usr/include/strings.h /usr/include/inttypes.h \
+ /usr/include/c++/11/pstl/execution_defs.h \
+ /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/snake.h \
+ /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
+ /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
+ /usr/include/SDL2/SDL_config-x86_64.h /usr/include/SDL2/SDL_platform.h \
+ /usr/include/SDL2/begin_code.h /usr/include/SDL2/close_code.h \
+ /usr/include/c++/11/stdlib.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/inttypes.h \
  /usr/include/c++/11/math.h \
  /usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
  /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h \
@@ -245,7 +247,6 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: \
  /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h \
  /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h \
  /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/controller.h \
- /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/snake.h \
  /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/renderer.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \

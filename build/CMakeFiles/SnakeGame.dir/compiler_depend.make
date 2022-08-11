@@ -740,6 +740,7 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/game.cpp \
   /usr/include/c++/11/bit \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
+  ../src/snake.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_main.h \
   /usr/include/SDL2/SDL_stdinc.h \
@@ -881,7 +882,6 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/game.cpp \
   /usr/include/SDL2/SDL_locale.h \
   /usr/include/SDL2/SDL_misc.h \
   ../src/controller.h \
-  ../src/snake.h \
   ../src/renderer.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \

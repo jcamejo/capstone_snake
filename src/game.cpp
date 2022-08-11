@@ -19,7 +19,6 @@ void Game::Run(Controller const &controller, Renderer &renderer,
   Uint32 frame_end;
   Uint32 frame_duration;
   int frame_count = 0;
-  bool running = true;
 
   while (running)
   {
@@ -76,7 +75,11 @@ void Game::PlaceFood()
 void Game::Update()
 {
   if (!snake.alive)
+  {
+    ShowMessage("Try again!", "you lose");
+    running = false;
     return;
+  }
 
   snake.Update();
 
@@ -96,3 +99,8 @@ void Game::Update()
 
 int Game::GetScore() const { return score; }
 int Game::GetSize() const { return snake.size; }
+
+void Game::ShowMessage(std::string title, std::string msg)
+{
+  SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, title.c_str(), msg.c_str(), NULL);
+}

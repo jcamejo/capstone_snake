@@ -2,10 +2,10 @@
 #define GAME_H
 
 #include <random>
+#include "snake.h"
 #include "SDL.h"
 #include "controller.h"
 #include "renderer.h"
-#include "snake.h"
 
 class Game
 {
@@ -19,6 +19,7 @@ public:
 private:
   Snake snake;
   SDL_Point food;
+  bool running{true};
 
   std::random_device dev;
   std::mt19937 engine;
@@ -29,6 +30,7 @@ private:
 
   void PlaceFood();
   void Update();
+  void ShowMessage(std::string title, std::string msg);
 };
 
 #endif

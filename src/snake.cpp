@@ -42,6 +42,7 @@ void Snake::UpdateHead()
     break;
   }
 
+  // If wall is enabled
   if (HitAWall() && wall_enabled)
   {
     alive = false;
