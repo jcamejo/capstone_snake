@@ -11,11 +11,11 @@ In this project, you can build your own C++ application or extend this Snake gam
 ## Added features
 
 - A configuration file with the following setup
-  screenWidth 640; // Screen Width (Window Dimensions)
-  screenHeight 640; // Screen Height (Window Dimensions)
-  gridWidth 32; // Grid Width (Grid Width: Size of the game board for the snake)
-  gridHeight 32; // Grid Height (Grid Height: Size fo the game board for the snake)
-  wallEnabled 1; // 1 to make the wall enabled to play or 0 to make the snake swap around the walls
+  - **screenWidth** 640; // Screen Width (Window Dimensions)
+  - **screenHeight** 640; // Screen Height (Window Dimensions)
+  - **gridWidth** 32; // Grid Width (Grid Width: Size of the game board for the snake)
+  - **gridHeight** 32; // Grid Height (Grid Height: Size fo the game board for the snake)
+  - **wallEnabled** 1; // 1 to make the wall enabled to play or 0 to make the snake swap around the walls
 
 - Display message at the end of the game that shows the score and closes the game
 
