@@ -8,6 +8,29 @@ The Capstone Project gives you a chance to integrate what you've learned through
 
 In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
 
+## Rubrics worked
+
+- README (All Rubric Points REQUIRED)
+
+- The project demonstrates an understanding of C++ functions and control structures.
+  examples:
+    - [Added helpers to reset the game] (https://github.com/jcamejo/capstone_snake/blob/master/src/game.cpp#L104-L108)
+    - [Utility functions on its own namespace] (https://github.com/jcamejo/capstone_snake/blob/master/src/helpers.cpp#L4-L7)
+    - [switch in the config file with mapping configuration] (https://github.com/jcamejo/capstone_snake/blob/master/src/config.cpp#L24-L44)
+
+- The project reads data from a file and process the data, or the program writes data to a file.
+  - file configurations
+    - [example 1](https://github.com/jcamejo/capstone_snake/blob/master/src/config.cpp)
+    - [example 2](https://github.com/jcamejo/capstone_snake/blob/master/src/main.cpp#L12-L16)
+
+- The project accepts user input and processes the input
+  - Small enhancements on the player input
+    - [closing the game while pressing esc] (https://github.com/jcamejo/capstone_snake/blob/master/src/controller.cpp#L46-L48)
+
+  - class encapsulate behavior
+    - [added behaviour for hitting a wall](https://github.com/jcamejo/capstone_snake/blob/master/src/snake.cpp#L106-L109)
+
+
 ## Added features
 
 - A configuration file with the following setup
