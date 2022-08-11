@@ -930,6 +930,7 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o
  /usr/include/c++/11/bits/node_handle.h
  /usr/include/c++/11/bits/unordered_map.h
  /usr/include/c++/11/bits/erase_if.h
+ /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/helpers.h
 
 CMakeFiles/SnakeGame.dir/src/main.cpp.o
  /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/main.cpp
@@ -1124,13 +1125,8 @@ CMakeFiles/SnakeGame.dir/src/main.cpp.o
  /usr/include/c++/11/bits/node_handle.h
  /usr/include/c++/11/bits/unordered_map.h
  /usr/include/c++/11/bits/erase_if.h
- /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/controller.h
- /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/snake.h
- /usr/include/c++/11/vector
- /usr/include/c++/11/bits/stl_uninitialized.h
- /usr/include/c++/11/bits/stl_vector.h
- /usr/include/c++/11/bits/stl_bvector.h
- /usr/include/c++/11/bits/vector.tcc
+ /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/helpers.cpp
+ /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/helpers.h
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_main.h
  /usr/include/SDL2/SDL_stdinc.h
@@ -1296,6 +1292,13 @@ CMakeFiles/SnakeGame.dir/src/main.cpp.o
  /usr/include/SDL2/SDL_version.h
  /usr/include/SDL2/SDL_locale.h
  /usr/include/SDL2/SDL_misc.h
+ /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/controller.h
+ /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/snake.h
+ /usr/include/c++/11/vector
+ /usr/include/c++/11/bits/stl_uninitialized.h
+ /usr/include/c++/11/bits/stl_vector.h
+ /usr/include/c++/11/bits/stl_bvector.h
+ /usr/include/c++/11/bits/vector.tcc
  /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/game.h
  /usr/include/c++/11/random
  /usr/include/c++/11/bits/random.h

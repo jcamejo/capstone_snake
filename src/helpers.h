@@ -1,12 +1,11 @@
-#ifndef HELPERS
-#define HELPERS
+#ifndef HELPERS_H
+#define HELPERS_H
 
 #include <string>
-#include "SDL.h"
 
 namespace helpers
 {
-  void ShowMessage();
+  void ShowMessage(std::string title, std::string msg);
 }
 
 #endif

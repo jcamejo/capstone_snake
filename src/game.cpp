@@ -1,6 +1,7 @@
 #include "game.h"
 #include <iostream>
 #include "SDL.h"
+#include "helpers.h"
 
 Game::Game(std::size_t grid_width, std::size_t grid_height, bool wall_enabled)
     : snake(grid_width, grid_height, wall_enabled),
@@ -76,7 +77,8 @@ void Game::Update()
 {
   if (!snake.alive)
   {
-    ShowMessage("Try again!", "you lose");
+    std::string scoreMessage = "SCORE: " + std::to_string(GetScore());
+    helpers::ShowMessage("Try again!", scoreMessage);
     running = false;
     return;
   }
@@ -99,8 +101,3 @@ void Game::Update()
 
 int Game::GetScore() const { return score; }
 int Game::GetSize() const { return snake.size; }
-
-void Game::ShowMessage(std::string title, std::string msg)
-{
-  SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, title.c_str(), msg.c_str(), NULL);
-}

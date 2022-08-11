@@ -6,6 +6,7 @@
 #include "SDL.h"
 #include "controller.h"
 #include "renderer.h"
+#include "helpers.h"
 
 class Game
 {
