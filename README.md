@@ -43,6 +43,7 @@ In this project, you can build your own C++ application or extend this Snake gam
     - [passing config variable as reference in game](https://github.com/jcamejo/capstone_snake/blob/master/src/game.h#L15)
 
 - The project uses destructors appropriately
+ - [Destroying renderer before window] (https://github.com/jcamejo/capstone_snake/blob/master/src/renderer.cpp#L38)
 
 ## Added features
 
