@@ -30,15 +30,23 @@ In this project, you can build your own C++ application or extend this Snake gam
   - class encapsulate behavior
     - [added behaviour for hitting a wall](https://github.com/jcamejo/capstone_snake/blob/master/src/snake.cpp#L106-L109)
 
+ - Overloaded functions allow the same function to operate on different parameters.
+   - [Overload snake constructor for backwards compatibility](https://github.com/jcamejo/capstone_snake/blob/master/src/snake.h#L18-L30)
+
+- The project makes use of references in function declarations.
+
+ - passing config as references
+  - [passing config variable as reference in renderer](https://github.com/jcamejo/capstone_snake/blob/master/src/renderer.h#L14)
+  - [passing config variable as reference in game](https://github.com/jcamejo/capstone_snake/blob/master/src/game.h#L15)
 
 ## Added features
 
 - A configuration file with the following setup
-  - **screenWidth** 640; // Screen Width (Window Dimensions)
-  - **screenHeight** 640; // Screen Height (Window Dimensions)
-  - **gridWidth** 32; // Grid Width (Grid Width: Size of the game board for the snake)
-  - **gridHeight** 32; // Grid Height (Grid Height: Size fo the game board for the snake)
-  - **wallEnabled** 1; // 1 to make the wall enabled to play or 0 to make the snake swap around the walls
+  screenWidth 640; // Screen Width (Window Dimensions)
+  screenHeight 640; // Screen Height (Window Dimensions)
+  gridWidth 32; // Grid Width (Grid Width: Size of the game board for the snake)
+  gridHeight 32; // Grid Height (Grid Height: Size fo the game board for the snake)
+  wallEnabled 1; // 1 to make the wall enabled to play or 0 to make the snake swap around the walls
 
 - Display message at the end of the game that shows the score and closes the game
 
