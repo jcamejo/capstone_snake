@@ -19,6 +19,7 @@ In this project, you can build your own C++ application or extend this Snake gam
     - [Added helpers to reset the game] (https://github.com/jcamejo/capstone_snake/blob/master/src/game.cpp#L104-L108)
     - [Utility functions on its own namespace] (https://github.com/jcamejo/capstone_snake/blob/master/src/helpers.cpp#L4-L7)
     - [switch in the config file with mapping configuration] (https://github.com/jcamejo/capstone_snake/blob/master/src/config.cpp#L24-L44)
+    - [unordered map usage] (https://github.com/jcamejo/capstone_snake/blob/master/src/config.h#L8-L24)
 
 - The project reads data from a file and process the data, or the program writes data to a file.
   - Using a configuration file to set up initial variables in the game
@@ -40,6 +41,8 @@ In this project, you can build your own C++ application or extend this Snake gam
   - passing config as references
     - [passing config variable as reference in renderer](https://github.com/jcamejo/capstone_snake/blob/master/src/renderer.h#L14)
     - [passing config variable as reference in game](https://github.com/jcamejo/capstone_snake/blob/master/src/game.h#L15)
+
+- The project uses destructors appropriately
 
 ## Added features
 

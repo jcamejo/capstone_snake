@@ -35,6 +35,7 @@ Renderer::Renderer(Config &config)
 
 Renderer::~Renderer()
 {
+  SDL_DestroyRenderer(sdl_renderer);
   SDL_DestroyWindow(sdl_window);
   SDL_Quit();
 }
