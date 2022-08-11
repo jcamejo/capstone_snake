@@ -1,5 +1,5 @@
-screenWidth 640;
-screenHeight 640;
-gridWidth 32;
-gridHeight 32;
-wallEnabled 1;
+screenWidth 640
+screenHeight 640
+gridWidth 32
+gridHeight 32
+wallEnabled 1

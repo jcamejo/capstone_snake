@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iostream>
 #include "config.h"
 #include "helpers.cpp"
 #include "controller.h"
@@ -11,7 +12,7 @@ int main()
   Config config("../config");
   Renderer renderer(config);
   Controller controller;
-  Game game(config.kGridWidth, config.kGridHeight, config.wallEnabled);
+  Game game(config);
   game.Run(controller, renderer, config.kMsPerFrame);
   std::cout << "Game has terminated successfully!\n";
   std::cout << "Score: " << game.GetScore() << "\n";

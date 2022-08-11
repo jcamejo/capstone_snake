@@ -3,11 +3,12 @@
 #include "SDL.h"
 #include "helpers.h"
 
-Game::Game(std::size_t grid_width, std::size_t grid_height, bool wall_enabled)
-    : snake(grid_width, grid_height, wall_enabled),
+Game::Game(Config &config)
+    : config(config),
+      snake(config.kGridWidth, config.kGridHeight, config.wallEnabled),
       engine(dev()),
-      random_w(0, static_cast<int>(grid_width - 1)),
-      random_h(0, static_cast<int>(grid_height - 1))
+      random_w(0, static_cast<int>(config.kGridWidth - 1)),
+      random_h(0, static_cast<int>(config.kGridHeight - 1))
 {
   PlaceFood();
 }
@@ -62,6 +63,7 @@ void Game::PlaceFood()
   {
     x = random_w(engine);
     y = random_h(engine);
+
     // Check that the location is not occupied by a snake item before placing
     // food.
     if (!snake.SnakeCell(x, y))
@@ -79,7 +81,7 @@ void Game::Update()
   {
     std::string scoreMessage = "SCORE: " + std::to_string(GetScore());
     helpers::ShowMessage("Try again!", scoreMessage);
-    running = false;
+    ResetSnake();
     return;
   }
 
@@ -97,6 +99,12 @@ void Game::Update()
     snake.GrowBody();
     snake.speed += 0.02;
   }
+}
+
+void Game::ResetSnake()
+{
+  snake = Snake(config.kGridWidth, config.kGridHeight, config.wallEnabled);
+  score = 0;
 }
 
 int Game::GetScore() const { return score; }

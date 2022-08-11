@@ -1,6 +1,6 @@
 #include "renderer.h"
 
-Renderer::Renderer(Config config)
+Renderer::Renderer(Config &config)
     : screen_width(config.kScreenWidth),
       screen_height(config.kScreenHeight),
       grid_width(config.kGridWidth),

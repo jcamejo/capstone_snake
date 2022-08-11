@@ -8,20 +8,38 @@ The Capstone Project gives you a chance to integrate what you've learned through
 
 In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
 
+## Added features
+
+- A configuration file with the following setup
+  screenWidth 640; // Screen Width (Window Dimensions)
+  screenHeight 640; // Screen Height (Window Dimensions)
+  gridWidth 32; // Grid Width (Grid Width: Size of the game board for the snake)
+  gridHeight 32; // Grid Height (Grid Height: Size fo the game board for the snake)
+  wallEnabled 1; // 1 to make the wall enabled to play or 0 to make the snake swap around the walls
+
+- Display message at the end of the game that shows the score and closes the game
+
+- Quality of life, improvements:
+  - restarting the game after losing
+  - using configuration file object, passing by reference
+  - can cloase the game by pressing ESC
+  - helper methods for show message and reset game
+
 ## Dependencies for Running Locally
-* cmake >= 3.7
-  * All OSes: [click here for installation instructions](https://cmake.org/install/)
-* make >= 4.1 (Linux, Mac), 3.81 (Windows)
-  * Linux: make is installed by default on most Linux distros
-  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
-  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
-* SDL2 >= 2.0
-  * All installation instructions can be found [here](https://wiki.libsdl.org/Installation)
-  >Note that for Linux, an `apt` or `apt-get` installation is preferred to building from source. 
-* gcc/g++ >= 5.4
-  * Linux: gcc / g++ is installed by default on most Linux distros
-  * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
-  * Windows: recommend using [MinGW](http://www.mingw.org/)
+
+- cmake >= 3.7
+  - All OSes: [click here for installation instructions](https://cmake.org/install/)
+- make >= 4.1 (Linux, Mac), 3.81 (Windows)
+  - Linux: make is installed by default on most Linux distros
+  - Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
+  - Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
+- SDL2 >= 2.0
+  - All installation instructions can be found [here](https://wiki.libsdl.org/Installation)
+    > Note that for Linux, an `apt` or `apt-get` installation is preferred to building from source.
+- gcc/g++ >= 5.4
+  - Linux: gcc / g++ is installed by default on most Linux distros
+  - Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
+  - Windows: recommend using [MinGW](http://www.mingw.org/)
 
 ## Basic Build Instructions
 
@@ -30,9 +48,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
-
 ## CC Attribution-ShareAlike 4.0 International
-
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
