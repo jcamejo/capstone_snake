@@ -12,6 +12,8 @@ In this project, you can build your own C++ application or extend this Snake gam
 
 - README (All Rubric Points REQUIRED)
 
+- The submission must compile and run.
+
 - The project demonstrates an understanding of C++ functions and control structures.
   examples:
     - [Added helpers to reset the game] (https://github.com/jcamejo/capstone_snake/blob/master/src/game.cpp#L104-L108)
@@ -19,7 +21,7 @@ In this project, you can build your own C++ application or extend this Snake gam
     - [switch in the config file with mapping configuration] (https://github.com/jcamejo/capstone_snake/blob/master/src/config.cpp#L24-L44)
 
 - The project reads data from a file and process the data, or the program writes data to a file.
-  - file configurations
+  - Using a configuration file to set up initial variables in the game
     - [example 1](https://github.com/jcamejo/capstone_snake/blob/master/src/config.cpp)
     - [example 2](https://github.com/jcamejo/capstone_snake/blob/master/src/main.cpp#L12-L16)
 
@@ -35,9 +37,9 @@ In this project, you can build your own C++ application or extend this Snake gam
 
 - The project makes use of references in function declarations.
 
- - passing config as references
-  - [passing config variable as reference in renderer](https://github.com/jcamejo/capstone_snake/blob/master/src/renderer.h#L14)
-  - [passing config variable as reference in game](https://github.com/jcamejo/capstone_snake/blob/master/src/game.h#L15)
+  - passing config as references
+    - [passing config variable as reference in renderer](https://github.com/jcamejo/capstone_snake/blob/master/src/renderer.h#L14)
+    - [passing config variable as reference in game](https://github.com/jcamejo/capstone_snake/blob/master/src/game.h#L15)
 
 ## Added features
 
