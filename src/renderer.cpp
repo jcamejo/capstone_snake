@@ -1,6 +1,4 @@
 #include "renderer.h"
-#include <iostream>
-#include <string>
 
 Renderer::Renderer(Config config)
     : screen_width(config.kScreenWidth),

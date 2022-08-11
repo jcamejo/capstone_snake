@@ -2,6 +2,8 @@
 #define RENDERER_H
 
 #include <vector>
+#include <iostream>
+#include <string>
 #include "SDL.h"
 #include "snake.h"
 #include "config.h"

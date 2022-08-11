@@ -42,6 +42,16 @@ void Snake::UpdateHead()
     break;
   }
 
+  if (HitAWall() && wall_enabled)
+  {
+    alive = false;
+    if (head_x > grid_width)
+      head_x = grid_width - 1;
+    if (head_y > grid_height)
+      head_y = grid_height - 1;
+    return;
+  }
+
   // Wrap the Snake around to the beginning if going off of the screen.
   head_x = fmod(head_x + grid_width, grid_width);
   head_y = fmod(head_y + grid_height, grid_height);
@@ -90,4 +100,9 @@ bool Snake::SnakeCell(int x, int y)
     }
   }
   return false;
+}
+
+bool Snake::HitAWall()
+{
+  return head_x < 0 || head_y < 0 || head_x >= grid_width || head_y >= grid_height;
 }

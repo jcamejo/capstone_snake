@@ -6,10 +6,11 @@
 
 int main()
 {
+  // Rubic addressed: Reading configuration from a file object
   Config config("../config");
   Renderer renderer(config);
   Controller controller;
-  Game game(config.kGridWidth, config.kGridHeight);
+  Game game(config.kGridWidth, config.kGridHeight, config.wallEnabled);
   game.Run(controller, renderer, config.kMsPerFrame);
   std::cout << "Game has terminated successfully!\n";
   std::cout << "Score: " << game.GetScore() << "\n";

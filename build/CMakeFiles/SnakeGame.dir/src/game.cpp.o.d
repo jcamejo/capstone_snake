@@ -247,7 +247,6 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: \
  /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/controller.h \
  /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/snake.h \
  /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/renderer.h \
- /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/config.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
@@ -269,7 +268,9 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/unordered_map \
+ /usr/include/c++/11/bits/istream.tcc \
+ /home/juan/Dev/c++/udacity_projects/CppND-Capstone-Snake-Game/src/config.h \
+ /usr/include/c++/11/unordered_map \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h /usr/include/c++/11/tuple \

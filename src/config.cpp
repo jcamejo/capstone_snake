@@ -35,6 +35,9 @@ Config::Config(std::string configPath)
         case GRID_HEIGHT:
           kGridHeight = value;
           break;
+        case WALL_ENABLED:
+          wallEnabled = value == 1 ? true : false;
+          break;
         default:
           throw std::invalid_argument("Invalid configuration");
           break;
